@@ -1,0 +1,176 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/w3.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="../images/icon.png">
+    <title>Webmart | Career</title>
+</head>
+<body>
+    <div class="">
+        <p class="w3-purple" style="padding: 0;">
+            <marquee style="color: yellow">
+                Do you want website, android/ios mobile application or software package for your business? Please contact with us (response@webmart.com). 
+                Our designing & development team is able to fullfill your project in efficient manner.
+            </marquee>
+        </p>
+        <header class="w3-card-4 w3-padding w3-animate-top">
+            <table>
+                <tr>
+                    <td><img src="../images/logo.png" width="250" height="auto" alt="webmart logo" id="logo" title="Webmart Home"></td>
+                <td>
+                    <div class="w3-bar" id="navbar">
+                    <nav>
+                        <a class="w3-bar-item w3-button w3-padding-large w3-hover-none w3-hover-text-gray" href="../home.html">Home</a>
+                        <a class="w3-bar-item w3-padding-large w3-button w3-hover-none w3-hover-text-gray" href="about.html">About</a>
+                        <a class="w3-bar-item w3-padding-large w3-button w3-hover-none w3-hover-text-gray" href="services.html">Services</a>
+                        <a class="w3-bar-item w3-padding-large w3-button w3-hover-none w3-hover-text-gray" href="gallery.html">Gallery</a>
+                        <a class="w3-bar-item w3-padding-large w3-button w3-hover-none w3-hover-text-gray" href="portfolio.html">Portfolio</a>
+                        <a class="w3-bar-item w3-padding-large w3-button w3-hover-none w3-hover-text-gray w3-text-purple" href="career.html">Career</a>
+                        <a class="w3-bar-item w3-padding-large w3-button w3-hover-none w3-hover-text-gray" href="contact.html">Contact Us</a>
+                    </nav>
+                    </div>
+                </td>
+                </tr>
+            </table>
+        </header>
+
+        <div class="title-header">
+            <img src="../images/career.jpg" width="100%" height="400" id="homebanner">
+            <h1>Career Options</h1>
+            <h3>Getting benifited to work with us</h3>
+        </div>
+
+        <div class="content">
+            <h1 class="w3-jumbo w3-center subheader">Career @Webmart</h1>
+            <h3 class="subheader w3-center">Why work for Webmart?</h3>
+
+            <div class="w3-row">
+                <div class="w3-col l3 m3 s3">
+                    <h1 class="w3-xxlarge subheader">Worldwide Clients</h1>
+                    <p>
+                        Webmart boasts of umpteen number of clients and resellers, primarily located in various towns and cities of USA, Canada, UK, Australia, Singapore, Israel and UAE. 
+                        At this moment we do not have client base in India.
+                    </p>
+                </div>
+
+                <div class="w3-col l3 m3 s3 w3-border-left w3-padding">
+                    <h1 class="w3-xxlarge subheader">Big Squad</h1>
+                    <p>
+                        A good team is significant to the success of any business. 
+                        Webmart takes pride in having a trustworthy and sturdy team of approx 75 members. 
+                        Since our founding, we have worked with the best in the industry.
+                    </p>
+                </div>
+
+                <div class="w3-col l3 m3 s3 w3-border-left w3-padding">
+                    <h1 class="w3-xxlarge subheader">Handpicked Team</h1>
+                    <p>
+                        We pride ourselves on the skills and professionalism of our team members and invest time and effort in training them to further enhance their skills. 
+                        During recruitment, we take utmost care to select the most deserving candidates.
+                    </p>
+                </div>
+
+                <div class="w3-col l3 m3 s3 w3-border-left w3-padding">
+                    <h1 class="w3-xxlarge subheader">Prompt Responses</h1>
+                    <p>
+                        At Webmart, we value your time as much as our own. Our turn-around time is the most minimal and we assure reply within 1 business day. 
+                        Infact all our managers go through rigourous training in communication and client handling.
+                    </p>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="w3-center"><button class="w3-btn w3-green w3-round w3-padding" onclick="document.getElementById('modal').style.display='block'">Drop Your CV Here</button></div>
+
+            <div id="modal" class="w3-modal">
+                <div class="w3-modal-content w3-animate-zoom">
+                  <div class="w3-container">
+                    <span onclick="document.getElementById('modal').style.display='none'" class="w3-button w3-display-topright w3-circle w3-margin w3-padding-0">&times;</span>
+
+                    <div class="w3-container w3-padding-16">
+                        <form action="#" method="POST" enctype="multipart/form-data">
+
+                            <h2 class="w3-center subheader">Job Seeker Details</h2>
+
+                            <p class="w3-margin">
+                                <strong class="w3-block">Full Name <span style="color: red;">*</span></strong>
+                                <input type="text" id="name" class="w3-input w3-border" placeholder="Enter Your FullName">
+                            </p>
+
+                            <p class="w3-margin">
+                                <strong class="w3-block">Sex <span style="color: red;">*</span></strong>
+                                <input type="radio" name="sex"> Male
+                                <input type="radio" name="sex"> Female
+                                <input type="radio" name="sex"> Others
+                            </p>
+
+                            <p class="w3-margin">
+                                <strong class="w3-block">Address <span style="color: red;">*</span></strong>
+                                <input type="text" id="address" class="w3-input w3-border" placeholder="Enter Your Address">
+                            </p>
+
+                            <p class="w3-margin">
+                                <strong class="w3-block">Email Id <span style="color: red;">*</span></strong>
+                                <input type="email" id="email" class="w3-input w3-border" placeholder="Enter Your Email (eg: john@example.com)">
+                            </p>
+
+                            <p class="w3-margin">
+                                <strong class="w3-block">Mobile No.</strong>
+                                <input type="number" id="mobile" class="w3-input w3-border" placeholder="Enter Your Mobile Noumber">
+                            </p>
+
+                            <p class="w3-margin">
+                                <strong class="w3-block">Post You Want to Apply? <span style="color: red;">*</span></strong>
+                                <select id="desg" class="w3-input w3-border">
+                                    <option value="">--Select--</option>
+                                    <option value="Graphic Designer">Graphic Designer</option>
+                                    <option value="Web Designer">Web Designer</option>
+                                    <option value="Web Developer">Web Developer</option>
+                                    <option value="Android Developer">Android Developer</option>
+                                    <option value="IoS Developer">IoS Developer</option>
+                                </select>
+                            </p>
+
+                            <p class="w3-margin">
+                                <strong class="w3-block">Upload CV/Resume <span style="color: red;">*</span></strong>
+                                <input type="file" id="mobile" class="w3-input w3-border">
+                            </p>
+
+                            <p class="w3-margin">
+                                <strong class="w3-block">Why Should You Hire You? <span style="color: red;">*</span></strong>
+                                <textarea id="something" class="w3-input w3-border" placeholder="Tell Something..." rows="3"></textarea>
+                            </p>
+
+                            <p class="w3-margin w3-center">
+                                <button type="submit" id="submit" class="w3-btn w3-blue w3-padding w3-round">Submit</button>
+                                &nbsp;
+                                <button type="reset" id="reset" class="w3-btn w3-gray w3-padding w3-round">Reset</button>
+                            </p>
+                        </form>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+        </div>
+
+        <button onclick="topFunction()" id="pageup" class="w3-btn w3-right">^</button>
+
+        <footer class="w3-black w3-padding-16">
+            <p class="w3-center w3-container">
+                <span class="w3-left">Visitors: 18698</span>
+                &copy 2019-2020 All Rights Reserved | 
+                Powered By <strong>Soumyadeep Ghosh</strong>
+                <span class="w3-right">Last Update: 4<sup>th</sup> Dec, 18:39:00</span>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript" src="../js/main.js"></script>
