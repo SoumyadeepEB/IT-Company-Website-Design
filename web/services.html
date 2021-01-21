@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/w3.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="../images/icon.png">
+    <title>Webmart | Services</title>
+</head>
+<body onload="myRandom(1000,10000)">
+    <div class="">
+        <p class="w3-purple" style="padding: 0;">
+            <marquee style="color: yellow">
+                Do you want website, android/ios mobile application or software package for your business? Please contact with us (response@webmart.com). 
+                Our designing & development team is able to fullfill your project in efficient manner.
+            </marquee>
+        </p>
+        <header class="w3-card-4 w3-padding w3-animate-top">
+            <table>
+                <tr>
+                    <td><img src="../images/logo.png" width="250" height="auto" alt="webmart logo" id="logo" title="Webmart Home"></td>
+                <td>
+                    <div class="w3-bar" id="navbar">
+                    <nav>
+                        <a class="w3-bar-item w3-button w3-padding-large w3-hover-none w3-hover-text-gray" href="../index.html">Home</a>
+                        <a class="w3-bar-item w3-padding-large w3-button w3-hover-none w3-hover-text-gray" href="about.html">About</a>
+                        <a class="w3-bar-item w3-padding-large w3-button w3-hover-none w3-hover-text-gray w3-text-purple" href="services.html">Services</a>
+                        <a class="w3-bar-item w3-padding-large w3-button w3-hover-none w3-hover-text-gray" href="gallery.html">Gallery</a>
+                        <a class="w3-bar-item w3-padding-large w3-button w3-hover-none w3-hover-text-gray" href="portfolio.html">Portfolio</a>
+                        <a class="w3-bar-item w3-padding-large w3-button w3-hover-none w3-hover-text-gray" href="career.html">Career</a>
+                        <a class="w3-bar-item w3-padding-large w3-button w3-hover-none w3-hover-text-gray" href="contact.html">Contact Us</a>
+                    </nav>
+                    </div>
+                </td>
+                </tr>
+            </table>
+        </header>
+
+        <div class="title-header">
+            <img src="../images/services.jpeg" width="100%" height="400" id="homebanner">
+            <h1>Our Services</h1>
+            <h3>
+                Our brilliance in the field of Web Development, Graphic Design and Administrative Support, has made our clients prefer our services for a long term
+            </h3>
+        </div>
+
+        <div class="content">
+            <div class="w3-bar w3-purple">
+                <button class="w3-bar-item w3-button tab-btn" onclick="openService('web')">Web</button>
+                <button class="w3-bar-item w3-button tab-btn" onclick="openService('graphics')">Graphics</button>
+                <button class="w3-bar-item w3-button tab-btn" onclick="openService('mobile')">Mobile</button>
+                <button class="w3-bar-item w3-button tab-btn" onclick="openService('maintenance')">Maintenance</button>
+            </div>
+            <div class="w3-card-2 w3-white tab-body">
+                  <div id="web" class="w3-container w3-row tab">
+                      <br>
+                    <div class="w3-col l6 m6 s6">
+                        <h1 class="w3-xxlarge subheader">Web Applications</h1>
+                        <h4 class="subheader">Show off your global presence with a website which actually works for you.</h4>
+                        <p>
+                            <ul>
+                                <li>Layout Designing</li>
+                                <li>Corporate Websites</li>
+                                <li>Ecommerce Solution</li>
+                                <li>CMS Solutions</li>
+                                <li>Responsive Websites</li>
+                                <li>Portals & Forums</li>
+                            </ul>
+                            <br>
+                            <a href="web_app.html" target="_blank" class="w3-btn w3-orange">See More</a>
+                        </p>
+                    </div>
+                    <div class="w3-col l6 m6 s6">
+                        <img src="../images/tab1.jpg">
+                    </div>
+                  </div>
+                  
+                  <div id="graphics" class="w3-container w3-row tab" style="display:none">
+                    <br>
+                    <div class="w3-col l6 m6 s6">
+                        <h1 class="w3-xxlarge subheader">Graphic Designing</h1>
+                        <h4 class="subheader">Add value to your brand by getting it crafted from professionals.</h4>
+                        <p>
+                            <ul>
+                                <li>Logos</li>
+                                <li>Corporate Identities</li>
+                                <li>Brochure and Flyers</li>
+                                <li>Book Covers</li>
+                                <li>CD and DVD Cover</li>
+                                <li>Poster and Postcards</li>
+                            </ul>
+                            <br>
+                            <a href="graphic_design.html" target="_blank" class="w3-btn w3-orange">See More</a>
+                        </p>
+                    </div>
+                    <div class="w3-col l6 m6 s6">
+                        <img src="../images/tab2.png">
+                    </div>
+                  </div>
+                  
+                  <div id="mobile" class="w3-container w3-row tab" style="display:none">
+                    <br>
+                    <div class="w3-col l6 m6 s6">
+                        <h1 class="w3-xxlarge subheader">Mobile Applications</h1>
+                        <h4 class="subheader">Android & IoS Applications has several distinct advantages.</h4>
+                        <p>
+                            <ul>
+                                <li>Cross Platform</li>
+                                <li>Easy Scaling</li>
+                                <li>Low Maintenance</li>
+                                <li>Cost Effective</li>
+                                <li>Native Features</li>
+                                <li>Low Development</li>
+                            </ul>
+                            <br>
+                            <a href="mobile_app.html" target="_blank" class="w3-btn w3-orange">See More</a>
+                        </p>
+                    </div>
+                    <div class="w3-col l6 m6 s6">
+                        <img src="../images/tab3.jpg">
+                    </div>
+                  </div>
+
+                  <div id="maintenance" class="w3-container w3-row tab" style="display:none">
+                    <br>
+                    <div class="w3-col l6 m6 s6">
+                        <h1 class="w3-xxlarge subheader">Web Maintenance</h1>
+                        <h4 class="subheader">Maintain your existing websites in most efficient way by hiring us.</h4>
+                        <p>
+                            <ul>
+                                <li>One time maintenance</li>
+                                <li>Keep your site upto date</li>
+                                <li>Maintenance contract</li>
+                                <li>Full time maintenance</li>
+                                <li>Hourly Maintenance</li>
+                            </ul>
+                            <br>
+                            <a href="maintenance.html" target="_blank" class="w3-btn w3-orange">See More</a>
+                        </p>
+                    </div>
+                    <div class="w3-col l6 m6 s6">
+                        <img src="../images/tab4.jpg">
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <button onclick="topFunction()" id="pageup" class="w3-btn w3-right">^</button>
+
+        <footer class="w3-black w3-padding-16">
+            <p class="w3-center w3-container">
+                <span class="w3-left">Visitors: <b id="visitors"></b></span>
+                &copy 2019-2020 All Rights Reserved | 
+                Powered By <strong class="w3-hover-text-red"><a href="credit.html">Soumyadeep Ghosh</a></strong>
+                <span class="w3-right">Last Update: 16<sup>th</sup> Jan, 21:26:48</span>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript" src="../js/main.js"></script>
