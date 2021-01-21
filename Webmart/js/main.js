@@ -35,3 +35,10 @@ function openService(cityName)
     }
     document.getElementById(cityName).style.display = "block"; 
 }
+
+//Dummy Visitors
+
+function myRandom(min,max) 
+{
+    document.getElementById('visitors').innerHTML = Math.floor(Math.random() * (max - min + 1)) + min;
+}
